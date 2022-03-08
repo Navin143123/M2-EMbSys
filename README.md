@@ -1,1 +1,1 @@
-# Home Automation System
+# Temperature based fan control system
