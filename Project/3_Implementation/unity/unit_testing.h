@@ -13,6 +13,10 @@
 #ifndef __AVR_ATmega328__                                 // Defining the Atmega328 controller
 #define __AVR_ATmega328__
 #endif
+
+#ifndef UNIT_TESTING_H_
+#define TEST_PROJECT_H_
+
 #define F_CPU 1000000UL                                   // Macro for crystal frequency (1MHZ)
 #include <avr/io.h>                                       // Header file for general input/output
 #include <util/delay.h>                                    // Header file used for delay
@@ -33,3 +37,5 @@ void lcd_gotoxy (unsigned char col, unsigned char row);
 void lcd_print (char *str);
 
 void lcd_print_int (unsigned int value, int digits);
+
+#endif
