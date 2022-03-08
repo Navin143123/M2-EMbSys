@@ -36,3 +36,9 @@
 | ID |	Low Level Requirements for HLR3 |	ID | Low Level Requirements for HLR4 |
 | LLR3.1 | Driver shall be controlled by the Atmega328 |	LLR4.1 | Temperature sensor detect the room temperature |
 | LLR3.2 | Driver on at certain time to operate the fan |	LLR4.2 | Temperature and fan speed shall be displayed |
+
+## COMPONENTS REQUIRED
+### Temperature Sensor (LM35)
+#### LM35 is a precision IC temperature sensor with its output proportional to the temperature (in °C). The sensor circuitry is sealed and therefore it is not subjected to oxidation and other processes. With LM35, temperature can be measured more accurately than with a thermistor. It also possesses low self-heating and does not cause more than 0.1°C temperature rise in still air. The operating temperature range is from -55°C to 150°C. The output voltage varies by 10mV in response to every° C rise/fall in ambient temperature (Scale factor is 0.01V/°C).
+   ![image](https://user-images.githubusercontent.com/98948360/157297935-90c843f9-a854-421b-b52b-ea5ce9abd10e.png)
+                                                            
