@@ -38,7 +38,19 @@
 | LLR3.2 | Driver on at certain time to operate the fan |	LLR4.2 | Temperature and fan speed shall be displayed |
 
 ## COMPONENTS REQUIRED
+### Microcontroller (Atmega328)
+#### ATmega328 is an 8-bit, 28-Pin AVR Microcontroller, manufactured by Microchip, follows RISC Architecture, and has a flash-type program memory of 32KB. It has an EEPROM memory of 1KB and its SRAM memory is 2KB. It has 8 Pins for ADC operations, which all combine to form Port A (PA0 – PA7). It also has 3 built-in Timers, two of them are 8 Bit timers while the third one is 16-Bit Timer. It operates ranging from 3.3V to 5.5V but normally we use 5V as a standard. Its excellent features include cost-efficiency, low power dissipation, programming lock for security purposes, real timer counter with separate oscillator.
+![image](https://user-images.githubusercontent.com/98948360/157347867-a8d58a94-5c8f-44d3-9eba-65d3028fb35e.png)
 ### Temperature Sensor (LM35)
 #### LM35 is a precision IC temperature sensor with its output proportional to the temperature (in °C). The sensor circuitry is sealed and therefore it is not subjected to oxidation and other processes. With LM35, temperature can be measured more accurately than with a thermistor. It also possesses low self-heating and does not cause more than 0.1°C temperature rise in still air. The operating temperature range is from -55°C to 150°C. The output voltage varies by 10mV in response to every° C rise/fall in ambient temperature (Scale factor is 0.01V/°C).
    ![image](https://user-images.githubusercontent.com/98948360/157297935-90c843f9-a854-421b-b52b-ea5ce9abd10e.png)
-                                                            
+### Dc Fan   
+#### A DC ceiling fan works pretty much on the same principle as the DC motor. A DC motor uses an internal arrangement of magnets with opposing polarity. As current passes through the coil around this arrangement, a strong magnetic field is produced. This magnetic field then creates a torque that causes the motor to rotate. DC fans use less energy (70% of AC Fans),quiet and more speed options.                                                           
+   ![image](https://user-images.githubusercontent.com/98948360/157347252-773f1d47-1993-4145-84c1-dcdbe7af6f44.png)
+### L293 motor driver   
+#### L293D is a typical Motor driver or Motor Driver IC which allows DC motor to drive on either direction. L293D is a 16-pin IC which can control a set of two DC motors simultaneously in any direction. It means that you can control two DC motor with a single L293D IC. Dual H-bridge Motor Driver integrated circuit (IC).
+   ![image](https://user-images.githubusercontent.com/98948360/157348281-7a706ee9-50af-4ab9-bcb3-a121071d229e.png)
+### Lcd Display
+#### LCD (Liquid Crystal Display) screen is an electronic display module and find a wide range of applications. A 16*2 LCD display is very basic module and is very commonly used in various devices and circuits. The data is the ASCII value of the character to be displayed on the LCD.
+   ![image](https://user-images.githubusercontent.com/98948360/157347502-d804bd21-e987-4956-a620-5ba864199fa7.png)
+   
