@@ -1,5 +1,4 @@
-## ABSTRACT
-
+## ABSTRACT  
 ### The consumption of electrical energy is highly increasing now -a- days due to our day -to- day requirements. This will create a huge demand on electrical supply. This project describes the design and construction of fan speed control according to the room temperature. The temperature sensor was carefully chosen to gauge the room temperature.Depending upon the detection of temperature the system will work which is controlled by the Atmega328.
 
 ## IDENTIFYING FEATURES
